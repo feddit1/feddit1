@@ -1,0 +1,11 @@
+package chapter08;
+
+public class CalMinus {
+
+	private int minus = 15;
+
+	public void getResult(int n1, int n2) {
+		System.out.println(n1 + "-" + n2 + "=");
+	}
+
+}

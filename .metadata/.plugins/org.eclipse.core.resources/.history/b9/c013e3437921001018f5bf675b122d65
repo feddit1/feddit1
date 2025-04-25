@@ -1,0 +1,25 @@
+package chapter12.clone;
+
+public class Cricle implements Cloneable {
+
+	Point point;
+	int radius;
+
+	public Cricle(int x, int y, int radius) {
+		this.point = point;
+		this.radius = radius;
+	}
+
+	// 클래스의 객체복사
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		
+		return super.clone();
+	}
+
+	@Override
+	public String toString() {
+		return "Cricle [point=" + point + ", radius=" + radius + "]";
+	}
+
+}

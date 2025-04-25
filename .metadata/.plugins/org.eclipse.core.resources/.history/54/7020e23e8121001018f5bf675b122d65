@@ -1,0 +1,37 @@
+package chapter12.string;
+
+public class StringBuffermain_08 {
+
+	public static void main(String[] args) {
+
+		StringBuffer buf = new StringBuffer("Nice Day");
+		System.out.println(buf.toString());
+		System.out.println(buf.length()); // 8글자
+		System.out.println(buf.capacity()); // 기본용량 16 + 8=24
+
+		buf.insert(0, "FR ");
+		System.out.println(buf.toString());
+		System.out.println(buf.length());
+		System.out.println(buf.capacity());
+
+		buf.insert(12, " Good Day ");
+		System.out.println(buf.toString());
+		System.out.println(buf.toString());
+		System.out.println(buf.capacity());
+
+		buf.delete(4, 3);
+		System.out.println(buf.toString());
+
+		StringBuilder sr = new StringBuilder();
+		sr.ensureCapacity(50);// 50만큼 용량 할당
+		
+		Student stu = new Student();
+		System.out.println(stu);
+		
+		//클래스 정보를 가져오는 객체로 변환
+		Class sC = Class.forName("chapter12.string.Student");
+		
+
+	}
+
+}

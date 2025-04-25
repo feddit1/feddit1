@@ -1,0 +1,32 @@
+package chapter06;
+
+public class StudentInfomain {
+
+	public static void main(String[] args) {
+
+		StudentInfo studentchoi = new StudentInfo(8888, "FD", 1, "seoul");
+		System.out.println(studentchoi.studentID);
+		System.out.println(studentchoi.grade);
+		System.out.println(studentchoi.address);
+		//getters / setters 이용한 초기화 또는 출력
+		System.out.println(studentchoi.getStudentName());
+		
+		//기본 생성자를 이용해서 객체 생성(studentkim)
+		StudentInfo studentkim = new StudentInfo(7777, "FF", 3, "UK");
+		//주소를 직관적으로 초기화하고 출력
+		System.out.println(studentkim.studentID);
+		System.out.println(studentkim.grade);
+		System.out.println(studentkim.address);
+		System.out.println(studentkim.getStudentName());
+		
+		//기본 생성자를 이용해서 객체 생성(studentlee)
+		StudentInfo studentlee = new StudentInfo(0, null, 0, null);
+		studentlee.grade = 12;
+		System.out.println(studentlee.grade);
+		//getters / setters
+		studentlee.setStudentName("iii");
+		System.out.println(studentlee.getStudentName());
+		
+	}
+
+}

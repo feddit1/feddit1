@@ -1,0 +1,17 @@
+package chapter08;
+
+public class Company {
+
+	public static void main(String[] args) {
+		
+		Employee emp = new Employee("가나다", 4000);
+		emp.work();
+		emp.getInfo();
+		
+		Manager man = new Manager("마바사", 50000, "영업");
+		man.work();
+		man.getInfo();
+
+	}
+
+}

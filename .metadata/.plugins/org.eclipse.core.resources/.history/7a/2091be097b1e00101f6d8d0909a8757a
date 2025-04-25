@@ -1,0 +1,21 @@
+package chapter07;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+
+		// studentLee
+		Student_03 studentlee = new Student_03();
+
+		studentlee.StudentName = "이수정";
+		studentlee.serialNum = 3;	
+		System.out.println(studentlee.StudentName + "님은 " + studentlee.serialNum + "학년입니다");
+
+		System.out.println();
+		Student_03 studentKim = new Student_03();
+		studentKim.setStudentName("김우성");
+		System.out.println(studentKim.StudentName);
+		System.out.println(studentKim.serialNum);
+	}
+
+}

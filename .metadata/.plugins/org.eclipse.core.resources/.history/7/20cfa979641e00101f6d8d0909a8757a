@@ -1,0 +1,13 @@
+package chapter06;
+
+public class Example_person_Main {
+
+	public static void main(String[] args) {
+
+		Example_person Ep = new Example_person();
+
+		System.out.println("이름: " + name + "/ 키: " + height + "/ 몸무게: " + height);
+
+	}
+
+}

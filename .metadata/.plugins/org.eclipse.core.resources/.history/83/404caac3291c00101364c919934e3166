@@ -1,0 +1,21 @@
+package chapter06;
+
+public class StudentInfomain {
+
+	public static void main(String[] args) {
+
+		StudentInfo studentchoi = new StudentInfo(8888, "FD", 1, "seoul");
+		System.out.println(studentchoi.studentID);
+		System.out.println(studentchoi.grade);
+		System.out.println(studentchoi.address);
+		//getters / setters 이용한 초기화 또는 출력
+		System.out.println(studentchoi.getStudentName());
+		
+		//기본 생성자를 이용해서 객체 생성(studentkim)
+		
+		//주소를 직관적으로 초기화하고 출력
+		
+
+	}
+
+}

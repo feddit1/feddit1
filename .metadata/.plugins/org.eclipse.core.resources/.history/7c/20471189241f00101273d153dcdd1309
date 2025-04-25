@@ -1,0 +1,11 @@
+package chapter08;
+
+public class TV {
+
+	public static void main(String[] args) {
+		Washer wa = new Washer("LG");
+		System.out.println(wa.brand);
+
+	}
+
+}

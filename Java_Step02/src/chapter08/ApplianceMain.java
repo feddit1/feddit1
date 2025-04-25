@@ -1,0 +1,23 @@
+package chapter08;
+
+public class ApplianceMain {
+
+	public static void main(String[] args) {
+		/*
+		 * Appliance ap = new Washer("LG"); Appliance ap1 = new TV("Samsung");
+		 * 
+		 * ap.turnOn(); ap1.turnOn();
+		 */
+
+		Appliance[] list = new Appliance[3];
+		list[0] = new Washer("LG");
+		list[1] = new Washer("Samsung");
+		list[2] = new Washer("Samsung");
+
+		for (Appliance a : list) {
+			a.turnOn();
+		}
+
+	}
+
+}

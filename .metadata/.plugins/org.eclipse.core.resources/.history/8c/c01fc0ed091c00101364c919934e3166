@@ -1,0 +1,44 @@
+package chapter06;
+
+public class AccessTest {
+
+	private int aa;
+	public int bb;
+
+	public int getAa() {
+		return aa;
+	}
+
+	public void setAa(int aa) {
+		this.aa = aa;
+	}
+
+	public int getBb() {
+		return bb;
+	}
+
+	public void setBb(int bb) {
+		this.bb = bb;
+	}
+
+	public int getCc() {
+		return cc;
+	}
+
+	public void setCc(int cc) {
+		this.cc = cc;
+	}
+
+	int cc;
+
+	public void Disp() {
+		System.out.println("aa값: " + aa + "bb값: " + bb + "cc값: " + cc);
+	}
+
+	public static void main(String[] args) {
+
+		SungJuk s = new SungJuk();
+
+	}
+
+}

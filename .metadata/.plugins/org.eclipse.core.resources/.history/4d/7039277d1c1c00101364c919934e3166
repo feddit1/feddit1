@@ -1,0 +1,12 @@
+package chapter06;
+
+public class Team {
+
+		TeamMember tm = new TeamMember();
+		
+		public void init() {
+			tm.mName="신인철";
+		}
+
+
+}

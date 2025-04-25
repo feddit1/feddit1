@@ -1,0 +1,15 @@
+package chapter08;
+
+public class Company {
+
+	public static void main(String[] args) {
+		
+		Employee emp = new Employee("가나다", 4000);
+		emp.work();
+		emp.getInfo();
+		
+		
+
+	}
+
+}

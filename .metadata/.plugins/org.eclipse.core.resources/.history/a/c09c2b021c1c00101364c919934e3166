@@ -1,0 +1,17 @@
+package chapter06;
+
+public class Team {
+
+		TeamMember tm = new TeamMember();
+		
+		tm.nName = "지건우";
+		
+		System.out.println("팀명: " + tm.teamName);
+		System.out.println("팀장명: " + tm.mName);
+		System.out.println("전화번호: " + tm.mPhone);
+		System.out.println("부팀장명: " + tm.sName);
+		System.out.println("팀원명: " + tm.name);
+		System.out.println("성별: " + tm.gender);
+
+
+}

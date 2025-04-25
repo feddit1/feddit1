@@ -1,0 +1,20 @@
+package chapter06;
+
+public class Student_07 {
+
+	// 멤버변수
+	public static final int studentID = 1000;
+	public String studentname;
+	int grade;
+	String address;
+
+	// 기본 생성자
+
+	// 오버로딩 생성자
+	public Student_07(String studentname, String address) {
+		this.studentname = studentname;
+		this.address = address;
+	}
+	// 메서드
+
+}

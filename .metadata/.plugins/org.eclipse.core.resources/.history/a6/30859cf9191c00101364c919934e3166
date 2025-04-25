@@ -1,0 +1,23 @@
+package chapter06;
+
+public class Car_04 {
+	
+	//멤버변수=필드
+	String company = "기아";
+	String model = "k5";
+	String color = "흰색";
+	int maxSpeed = 280;
+	int speed;//0
+	
+	Car_04 car=new Car_04();
+	
+	System.out.println("제작회사: "+car.company);
+	System.out.println("모델명: "+car.model);
+	System.out.println("색깔: "+car.color);
+	System.out.println("최고속도: "+car.maxspeed);
+	System.out.println("현재속도: "+car.speed);
+	
+	car.speed=60;
+	System.out.println("변경된 현재속도: "+car.speed);
+
+}

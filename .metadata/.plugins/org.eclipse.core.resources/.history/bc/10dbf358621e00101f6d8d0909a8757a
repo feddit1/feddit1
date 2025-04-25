@@ -1,0 +1,6 @@
+package chapter06;
+
+//상수들을 하나의 그룹으로 묶어서 표현하는 열거형
+public enum Week {
+	MONDAY, TUESDAY, WEDNESDAY, THUSDAY, FRIDAY, SATURDAY, SUNDAY
+}

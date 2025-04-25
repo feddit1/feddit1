@@ -1,0 +1,18 @@
+package chapter09;
+
+public class PhoneMain {
+
+	public static void main(String[] args) {
+
+		// Phone phone = new Phone(); //추상클래스이므로 객체 생성안됨
+
+		SmartPhone sp = new SmartPhone("three star");
+
+		System.out.println(sp.owner + "님");
+		sp.turnOn();
+		sp.intersearch();
+		sp.turnOff();
+
+	}
+
+}

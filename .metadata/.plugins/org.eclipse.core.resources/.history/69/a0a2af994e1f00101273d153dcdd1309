@@ -1,0 +1,11 @@
+package chapter09;
+
+public class NoteBook extends Computer {
+	// 상속받은 두개의 추상메서드중 하나만 정의할 경우
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

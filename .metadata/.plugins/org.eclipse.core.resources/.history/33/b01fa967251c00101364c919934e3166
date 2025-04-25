@@ -1,0 +1,11 @@
+package chapter06;
+
+public class StudentInfomain {
+
+	public static void main(String[] args) {
+		
+		StudentInfo studentchoi = new StudentInfo();
+
+	}
+
+}

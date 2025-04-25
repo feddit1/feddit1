@@ -1,0 +1,24 @@
+package chapter08;
+
+public class Company {
+
+	public static void main(String[] args) {
+
+		Employee emp = new Employee("가나다", 4000);
+		emp.work();
+		emp.getInfo();
+
+		Manager man = new Manager("마바사", 50000, "영업");
+		man.work();
+		man.getInfo();
+		man.approveLeave("가나다");
+
+		// 다형성
+		Employee emp2 = new Manager("가나다", 50000, "개발");
+		emp2.work();
+		emp2.getInfo();
+		//emp2.approveLeave("가나다"); //컴파일 에러(객체가 Employee 타입이라도 Manager 고유 기능은 사용x)
+
+	}
+
+}

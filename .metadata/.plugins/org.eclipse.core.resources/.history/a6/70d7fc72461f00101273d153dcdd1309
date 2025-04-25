@@ -1,0 +1,13 @@
+package chapter08;
+
+public class CalPlus extends Example {
+
+	private int plus = 30;
+
+	@Override
+	public int getResult(int n1, int n2) {
+		plus = n1 + n2;
+		return super.getResult(n1, n2);
+	}
+
+}

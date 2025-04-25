@@ -1,0 +1,14 @@
+package chapter08;
+
+public class ApplianceMain {
+
+	public static void main(String[] args) {
+
+		Appliance ap = new Appliance("LG");
+
+		ap.turnOn();
+		ap.turnOff();
+		
+	}
+
+}

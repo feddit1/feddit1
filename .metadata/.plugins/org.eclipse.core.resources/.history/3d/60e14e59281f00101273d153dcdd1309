@@ -1,0 +1,24 @@
+package chapter08;
+
+public class Childmain {
+
+	public static void main(String[] args) {
+
+		Child ch = new Child();
+
+		ch.method1();// 부모
+		ch.method2();// 자식
+		ch.method3();// 자식
+		System.out.println();
+
+		Parent pa = ch;
+		pa.method1();// 부모
+		pa.method2();// 자식
+		System.out.println();
+		
+		Parent ph = new Parent();
+		ph.method1();
+		ph.method2();
+	}
+
+}

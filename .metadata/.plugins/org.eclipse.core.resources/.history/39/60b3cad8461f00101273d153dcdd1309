@@ -1,0 +1,14 @@
+package chapter08;
+
+public class CalMinus extends Example {
+
+	private int minus = 15;
+
+	@Override
+	public int getResult(int n1, int n2) {
+		System.out.println(n1 + "+" + n2 + "=" + minus + "입니다.");
+		return minus;
+		
+	}
+
+}

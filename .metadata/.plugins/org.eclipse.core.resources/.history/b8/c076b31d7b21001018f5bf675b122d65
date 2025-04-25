@@ -1,0 +1,19 @@
+package chapter12.clone;
+
+class Book implements Cloneable {
+
+	String title;
+
+	public Book(String title) {
+		this.title = title;
+	}
+
+}
+
+public class Mybook {
+
+	public static void main(String[] args) {
+
+	}
+
+}

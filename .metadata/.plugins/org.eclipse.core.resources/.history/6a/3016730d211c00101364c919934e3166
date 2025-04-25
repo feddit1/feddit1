@@ -1,0 +1,22 @@
+package chapter06;
+
+public class Team {
+		// 멤버변수
+		private TeamMember[] member = new TeamMember[5];
+		private TeamMember m = new TeamMember();
+		// 기본생성자
+		
+		public void init() {
+			// 생성자 오버로드 사용
+			tm[0]=new TeamMember("지건우 ","남학생");
+			tm[1]=new TeamMember("김민석 ","남학생");
+			tm[2]=new TeamMember("김자월 ","여학생");
+			tm[3]=new TeamMember("김청우 ","여학생");
+			tm[4]=new TeamMember("김태완 ","남학생");
+			tm[5]=new TeamMember("이연승 ","남학생");
+			
+			
+		}
+
+
+}

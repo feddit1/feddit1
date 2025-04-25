@@ -1,0 +1,57 @@
+package chapter12.string;
+
+public class StrudentMain_08 {
+
+	public static void main(String[] args) {
+
+		String stLee = new String("이상혁");
+		String stLee2 = stLee;
+		String stLee3 = new String("이상혁");
+
+		
+		System.out.println("----동일한 주소의 두 인스턴스 비교-----");
+		if(stLee == stLee2) { //물리적인 주소
+			System.out.println("stLee 와 stLee2의 주소는 같습니다");
+		}else {
+			System.out.println("stLee 와 stLee2의 주소는 다릅니다");
+		}
+		
+		if(stLee.equals(stLee2)) { //물리적인 주소
+			System.out.println("stLee 와 stLee2의 주소는 같습니다");
+		}else {
+			System.out.println("stLee 와 stLee2의 주소는 다릅니다");
+		}
+		
+		System.out.println("----서로 다른 두 인스턴스 비교-----");
+		if(stLee == stLee3) { //물리적인 주소
+			System.out.println("stLee 와 stLee3의 주소는 같습니다");
+		}else {
+			System.out.println("stLee 와 stLee3의 주소는 다릅니다");
+		}
+		
+		if(stLee.equals(stLee3)) { //물리적인 주소
+			System.out.println("stLee 와 stLee3의 주소는 같습니다");
+		}else {
+			System.out.println("stLee 와 stLee3의 주소는 다릅니다");
+		}
+		
+		System.out.println("------데이터 값 출력------");
+		System.out.println("stLee의 hashcode"+stLee.hashCode());
+		System.out.println("stLee3의 hashcode"+stLee3.hashCode());
+		System.out.println();
+		
+		System.out.println("------hash코드값 재정의------");
+		System.out.println("stLee의 실제 주소값 "+System.identityHashCode(stLee));
+		System.out.println("stLee3의 실제 주소값 "+System.identityHashCode(stLee3));
+		System.out.println();
+		
+		System.out.println("----------String Class----------");
+		String str1 = new String("test");
+		String str2 = new String("test");
+		
+		System.out.println("str1의 hascode: "+ str1.hashCode());
+		System.out.println("str2의 hascode: "+ str2.hashCode());
+		
+	}
+
+}

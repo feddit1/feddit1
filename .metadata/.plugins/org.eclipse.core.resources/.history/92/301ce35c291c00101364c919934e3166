@@ -1,0 +1,17 @@
+package chapter06;
+
+public class StudentInfomain {
+
+	public static void main(String[] args) {
+
+		StudentInfo studentchoi = new StudentInfo(8888, "FD", 1, "seoul");
+		System.out.println(studentchoi.studentID);
+		System.out.println(studentchoi.grade);
+		System.out.println(studentchoi.address);
+		
+		System.out.println(studentchoi.getStudentName());
+		
+
+	}
+
+}

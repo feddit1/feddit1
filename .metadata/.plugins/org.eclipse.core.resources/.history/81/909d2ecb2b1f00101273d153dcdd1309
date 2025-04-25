@@ -1,0 +1,13 @@
+package chapter08;
+
+public class CmbCellPhone extends CellPhone {
+
+	int channel;
+
+	public CmbCellPhone(int channel, String model, String color) {
+		this.channel = channel;
+		this.model = model;
+		this.color = color;
+	}
+
+}

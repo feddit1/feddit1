@@ -1,0 +1,23 @@
+package chapter06;
+
+public class UpDown {
+
+	  private int targetNumber; // 맞추어야 할 목표 숫자
+
+	    // 생성자에서 목표 숫자를 랜덤으로 설정
+	    public UpDown() {
+	        targetNumber = (int) (Math.random() * 100) + 1; // 1~100 사이의 랜덤 숫자
+	    }
+
+	    // 숫자 맞추기 확인 메서드
+	    public String check(int input) {
+	        if (input < targetNumber) {
+	            return "UP"; // 입력 숫자가 정답보다 낮으면 "UP"
+	        } else if (input > targetNumber) {
+	            return "DOWN"; // 입력 숫자가 정답보다 크면 "DOWN"
+	        } else {
+	            return "SUCCESS"; // 숫자가 맞으면 "SUCCESS"
+	        }
+	    }
+	
+}

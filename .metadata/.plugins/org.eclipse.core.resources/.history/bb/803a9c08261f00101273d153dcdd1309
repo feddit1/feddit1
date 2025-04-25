@@ -1,0 +1,15 @@
+package chapter08;
+
+public class ApplianceMain {
+
+	public static void main(String[] args) {
+
+		Appliance ap = new Appliance("LG");
+		Appliance ap1 = new Appliance("Samsung");
+
+		ap.turnOn();
+		ap1.turnOn();
+		
+	}
+
+}

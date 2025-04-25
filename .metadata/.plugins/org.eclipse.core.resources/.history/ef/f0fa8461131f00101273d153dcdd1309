@@ -1,0 +1,18 @@
+package chapter08;
+
+public class Berry {
+
+	private String name;
+	private String size;
+
+	public void Set1(String a, String b) {
+		name = a;
+		size = b;
+	}
+
+	public void Disp1() {
+		System.out.println("분류: " + name);
+		System.out.println("계절: " + size);
+	}
+
+}

@@ -1,0 +1,16 @@
+package chapter08;
+
+public class Manager extends Employee {
+
+	String department;
+
+	// 생성자
+	Employee emp = new Employee();
+
+	// Override work
+
+	public void approveLeave(String EmployeeName) {
+		System.out.println(name + "관리자가" + EmployeeName + "의 휴가를 승인했습니다.");
+	}
+
+}

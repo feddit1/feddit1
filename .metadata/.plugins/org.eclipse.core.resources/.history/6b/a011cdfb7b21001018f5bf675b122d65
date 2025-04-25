@@ -1,0 +1,50 @@
+package chapter12.clone;
+
+import java.util.ArrayList;
+
+class Book implements Cloneable {
+
+	String title;
+
+	public Book(String title) {
+		this.title = title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
+
+	@Override
+	public String toString() {
+		return title;
+	}
+	
+	
+	
+
+}
+
+public class Mybook {
+
+	public static void main(String[] args) {
+
+		ArrayList<Book> bookList = new ArrayList<Book>();
+		
+		Book b1 = new Book("자바");
+		Book b2 = new Book("스프링");
+		Book b3 = new Book("파이썬");
+		
+		bookList.add(b1);
+		bookList.add(b2);
+		bookList.add(b3);
+		
+		System.out.println(bookList);
+		
+	}
+
+}

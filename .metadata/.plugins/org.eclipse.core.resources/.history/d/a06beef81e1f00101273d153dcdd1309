@@ -1,0 +1,10 @@
+package chapter08;
+
+public class StrudentMain {
+
+	public static void main(String[] args) {
+		Student std = new Student;
+
+	}
+
+}

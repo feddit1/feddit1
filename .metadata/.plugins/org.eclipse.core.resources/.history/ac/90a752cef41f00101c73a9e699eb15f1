@@ -1,0 +1,17 @@
+package chapter10.Interface;
+
+public class SmartTelevisionMain {
+
+	public static void main(String[] args) {
+
+		SmartTeleVision tv = new SmartTeleVision();
+
+		tv.turnOn();
+		tv.setVolume(10);
+		tv.turnOff();
+		tv.search("youtube");
+		System.out.println();
+		
+	}
+
+}

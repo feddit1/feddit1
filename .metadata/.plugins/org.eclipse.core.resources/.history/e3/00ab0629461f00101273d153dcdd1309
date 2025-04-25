@@ -1,0 +1,11 @@
+package chapter08;
+
+public class CalPlus extends Example {
+
+	private int plus = 30;
+
+	public void getResult() {
+		System.out.println(n1 + "+" + n2 + "=" + plus);
+	}
+
+}

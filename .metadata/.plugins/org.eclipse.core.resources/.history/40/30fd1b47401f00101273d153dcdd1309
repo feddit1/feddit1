@@ -1,0 +1,15 @@
+package chapter08;
+
+public class Taxi extends Vehicle_10 {
+
+	private int taxiNum = 9999;
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		super.run();
+	}
+	
+	
+	
+}

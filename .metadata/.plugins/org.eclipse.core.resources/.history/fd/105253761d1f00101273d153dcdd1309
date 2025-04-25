@@ -1,0 +1,15 @@
+package chapter08;
+
+public class C extends A {
+
+	public C() {
+		super();
+		this.field = "value";
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

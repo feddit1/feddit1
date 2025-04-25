@@ -1,0 +1,18 @@
+package chapter06;
+
+import java.util.Scanner;
+
+public class Example_person_Main {
+
+	public static void main(String[] args) {
+
+		Example_person Ep = new Example_person();
+		Ep.name = "홍길동";
+		Ep.height = 180;
+		Ep.weight = 80;
+
+		System.out.println("이름: " + Ep.name + "/ 키: " + Ep.height + "cm/ 몸무게: " + Ep.height"kg");
+
+	}
+
+}

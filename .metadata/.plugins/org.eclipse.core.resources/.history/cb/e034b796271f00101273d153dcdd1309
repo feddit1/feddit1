@@ -1,0 +1,16 @@
+package chapter08;
+
+public class Child extends Parent {
+
+	@Override
+	public void method2() {
+		System.out.println("child=methoed2");
+	}
+	
+	public void method1() {
+		System.out.println("child=methoed1");
+	}
+
+	
+	
+}
